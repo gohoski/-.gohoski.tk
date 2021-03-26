@@ -9,12 +9,13 @@
     </style>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script>
-      var aud = new Audio('amogus.mp3');
-      setTimeout(() => aud.play(), 10000);
+      function playAmogusSoundtrack() {
+        var aud = new Audio('amogus.mp3').play();
+      }
     </script>
   </head>
   <body>
     <center><big><big><b>AMOGUS ඞ</b></big></big><br><br></center>
-    <p class="amogus"><img src="amogus.jpg"></p>
+    <p class="amogus"><img src="amogus.jpg" onclick="playAmogusSoundtrack()"></p>
   </body>
 </html>
